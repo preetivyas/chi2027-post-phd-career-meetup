@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+header .subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    opacity: 0.95;
+}
+
+main {
+    padding: 50px 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: #667eea;
+    margin-bottom: 20px;
+}
+
+.abstract p {
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #555;
+    line-height: 1.8;
+}
+
+.cta {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.cta p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 14px 40px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+footer {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 20px 40px;
+    color: #888;
+    font-size: 0.9rem;
+    border-top: 1px solid #eee;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header .subtitle {
+        font-size: 0.95rem;
+    }
+
+    main {
+        padding: 30px 20px;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+    }
+
+    .abstract p {
+        text-align: left;
+    }
+}
